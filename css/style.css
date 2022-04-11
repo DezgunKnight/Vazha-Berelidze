@@ -64,3 +64,70 @@ body {
 }
 
 /* Section1 Ends */
+
+
+/* Section 2 Starts */
+
+.div-container {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 75px;
+}
+
+.div-text {
+    max-width: 240px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+.div-text h3, h4, p {
+    color: grey;
+    font-size: 16px;
+}
+.div-text h3 {
+    font-weight: 900;
+}
+.div-text h4 {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
+
+.div-box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 876px;
+    width: 100%;
+}
+.div-1 {
+    max-width: 269px;
+    width: 100%;
+    height: auto;
+}
+.div-1 img {
+    width: 100%;
+}
+.div-1 h2 {
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+.div-2 {
+    max-width: 269px;
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.div-2 h2 {
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+
+/* Section 2 Ends */
