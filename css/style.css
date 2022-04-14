@@ -111,6 +111,7 @@ body {
     flex-wrap: wrap;
     max-width: 876px;
     width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 .box-h2 {
