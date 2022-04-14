@@ -383,3 +383,139 @@ body {
 
 
 /* Section 6 ends */
+
+
+/* Section 7 starts */
+
+.section-7 {
+    margin-top: 100px;
+}
+.sec7-container {
+    max-width: 1088px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register-text {
+    max-width: 250px;
+    width: 100%;
+    height: 100px;
+    /* background-color: #24D2FE; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.register-p {
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+}
+.divbox-form {
+    max-width: 1088px;
+    width: 100%;
+    height: 700px;
+    background: rgb(5,29,36);
+    background: linear-gradient(90deg, rgba(5,29,36,1) 0%, rgba(78,215,181,1) 43%, rgba(3,23,22,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    border-radius: 30px;
+    
+}
+.div-form1 {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.input-name {
+    max-width: 500px;
+    width: 100%;
+    height: 100px;
+    background: rgb(57,109,175);
+    background: linear-gradient(90deg, rgba(57,109,175,1) 0%, rgba(150,127,119,1) 48%, rgba(48,125,136,1) 100%);
+    border: none;
+    border-bottom: 1px solid #b84dff;
+}
+.input-name::placeholder {
+    font-size: 20px;
+    color: #f6f1ef;
+}
+.div2-form1 {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.input-lastname {
+    max-width: 500px;
+    width: 100%;
+    height: 100px;
+    background: rgb(57,109,175);
+    background: linear-gradient(90deg, rgba(57,109,175,1) 0%, rgba(150,127,119,1) 48%, rgba(48,125,136,1) 100%);
+    border: none;
+    border-bottom: 1px solid #b84dff;
+}
+.input-lastname::placeholder {
+    font-size: 20px;
+    color: #f6f1ef;
+}
+.div3-form1 {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.input-password {
+    max-width: 500px;
+    width: 100%;
+    height: 100px;
+    background: rgb(57,109,175);
+    background: linear-gradient(90deg, rgba(57,109,175,1) 0%, rgba(150,127,119,1) 48%, rgba(48,125,136,1) 100%);
+    border: none;
+    border-bottom: 1px solid #b84dff;
+}
+.input-password::placeholder {
+    font-size: 20px;
+    color: #f6f1ef;
+}
+
+.div4-form1 {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.input-email {
+    max-width: 500px;
+    width: 100%;
+    height: 100px;
+    background: rgb(57,109,175);
+    background: linear-gradient(90deg, rgba(57,109,175,1) 0%, rgba(150,127,119,1) 48%, rgba(48,125,136,1) 100%);
+    border: none;
+    border-bottom: 1px solid #b84dff;
+}
+.input-email::placeholder {
+    font-size: 20px;
+    color: #f6f1ef;
+}
+.label {
+    color: #f1ebec;
+    font-size: 18px;
+}
+.form-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Section 7 ends */
