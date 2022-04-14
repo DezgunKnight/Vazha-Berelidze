@@ -8,8 +8,6 @@ body {
 .header {
     height: 80px;
     width: 100%;
-    /* background: rgb(17,4,25);
-    background: linear-gradient(90deg, rgba(17,4,25,1) 0%, rgba(113,31,194,1) 21%, rgba(1,19,14,1) 100%); */
     background: rgb(17,4,25);
     background: linear-gradient(90deg, rgba(17,4,25,1) 0%, rgba(44,63,80,1) 15%, rgba(1,19,14,1) 100%);
     display: flex;
@@ -424,7 +422,6 @@ body {
     flex-direction: column;
     justify-content: center;    
     border-radius: 30px;
-    
 }
 .div-form1 {
     max-width: 500px;
@@ -432,15 +429,17 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 .input-name {
-    max-width: 500px;
     width: 100%;
     height: 100px;
     background: rgb(57,109,175);
     background: linear-gradient(90deg, rgba(57,109,175,1) 0%, rgba(150,127,119,1) 48%, rgba(48,125,136,1) 100%);
     border: none;
     border-bottom: 1px solid #b84dff;
+    font-size: 20px;
+    color: black;
 }
 .input-name::placeholder {
     font-size: 20px;
@@ -452,15 +451,16 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 .input-lastname {
-    max-width: 500px;
     width: 100%;
     height: 100px;
     background: rgb(57,109,175);
     background: linear-gradient(90deg, rgba(57,109,175,1) 0%, rgba(150,127,119,1) 48%, rgba(48,125,136,1) 100%);
     border: none;
     border-bottom: 1px solid #b84dff;
+    font-size: 20px;
 }
 .input-lastname::placeholder {
     font-size: 20px;
@@ -472,15 +472,16 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 .input-password {
-    max-width: 500px;
     width: 100%;
     height: 100px;
     background: rgb(57,109,175);
     background: linear-gradient(90deg, rgba(57,109,175,1) 0%, rgba(150,127,119,1) 48%, rgba(48,125,136,1) 100%);
     border: none;
     border-bottom: 1px solid #b84dff;
+    font-size: 20px;
 }
 .input-password::placeholder {
     font-size: 20px;
@@ -493,15 +494,16 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 .input-email {
-    max-width: 500px;
     width: 100%;
     height: 100px;
     background: rgb(57,109,175);
     background: linear-gradient(90deg, rgba(57,109,175,1) 0%, rgba(150,127,119,1) 48%, rgba(48,125,136,1) 100%);
     border: none;
     border-bottom: 1px solid #b84dff;
+    font-size: 20px;
 }
 .input-email::placeholder {
     font-size: 20px;
@@ -510,12 +512,65 @@ body {
 .label {
     color: #f1ebec;
     font-size: 18px;
+    margin-bottom: 7px;
 }
 .form-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+.register {
+    width: 100%;
+    height: 100px;
+    font-size: 50px;
+    font-weight: 700;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border: none;
+    border-radius: 0 0 30px 30px;
+}
+.register:focus {
+    outline: none;
+}
 
 /* Section 7 ends */
+
+/* footer starts */
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-div {
+    max-width: 222px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.footer-h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+.footer-p {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 12px;
+}
+.footer-box {
+    max-width: 666px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* footer ends */
