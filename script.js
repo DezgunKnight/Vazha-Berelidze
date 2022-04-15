@@ -1,3 +1,4 @@
+
 $('.js-anchor-link').click(function(e){
     e.preventDefault();
     var target = $($(this).attr('href'));
@@ -8,4 +9,8 @@ $('.js-anchor-link').click(function(e){
   });
 
 
- 
+  let navBar = document.getElementById('navigation');
+  let burgerBar = document.getElementById('burgerBar');
+  burgerBar.addEventListener('click',function() {
+      navBar.classList.toggle('activenav');
+  } )
