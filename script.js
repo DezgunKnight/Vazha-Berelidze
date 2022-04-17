@@ -10,9 +10,8 @@ $('.js-anchor-link').click(function(e){
 
 
   let burgerButton = document.getElementById('burgerBar');
-  let navBar = document.getElementById('navigation-ul');
-  
-  
+  let navBar = document.getElementById('navigation');
   burgerButton.addEventListener('click', function() {
-      navBar.classList.toggle('activenav');
+  navBar.classList.toggle('activenav');
   })
+
