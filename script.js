@@ -9,8 +9,11 @@ $('.js-anchor-link').click(function(e){
   });
 
 
-  let navBar = document.getElementById('navigation');
-  let burgerBar = document.getElementById('burgerBar');
-  burgerBar.addEventListener('click',function() {
-      navBar.classList.toggle('activenav');
-  } )
+  let burgerButton = document.getElementById('toggleButton');
+  let navBar = document.getElementById('navigation-ul');
+  
+  
+  burgerButton.addEventListener('click', function() {
+      navBar.classList.toggle('toggle');
+      burgerButton.classList.toggle('active');
+  })

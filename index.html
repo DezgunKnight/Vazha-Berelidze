@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <title>Tourist Landing Page</title>
     <script src="https://kit.fontawesome.com/499c626731.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
     <!-- Header Starts -->
@@ -18,7 +19,7 @@
             <img class="logo-style" src="images/logo.svg" alt="Logo">
         </a>
         <nav class="navigation">
-            <ul class="nav-ul navBar" id="navigation">
+            <ul class="nav-ul" id="navigation-ul">
                 <li class="nav-li">
                     <a href="index.html">Home</a>
                 </li>
@@ -36,10 +37,12 @@
                 </li>
             </ul>
         </nav>
-        <div class="burger-bar">
-            <i class="burger fa-solid fa-bars burgerBar" id="burgerBar"></i>
+        <div class="burger-bar toggle-menu" id="toggleButton">
+            <i class="burger fa-solid fa-bars"></i>
         </div>
     </header>
+    
+    
 
     <script src="script.js"></script>
 

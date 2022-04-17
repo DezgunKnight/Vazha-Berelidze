@@ -24,7 +24,7 @@ html, body {
     padding: 15px;
     list-style: none;
     border-radius: 0 0 10px 0;
-    opacity: 0.80;
+    opacity: 0.85;
     z-index: 100;
 }
 .nav-ul {
@@ -45,6 +45,10 @@ html, body {
 .navigation a:hover {
     color: #ff0;
 }
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+}
 .burger-bar {
     display: none;
 }
@@ -53,6 +57,8 @@ html, body {
     font-size: 40px;
     display: none;
 }
+
+
 
 
 
