@@ -9,9 +9,10 @@ $('.js-anchor-link').click(function(e){
   });
 
 
-  let navBar = document.getElementById('navigation');
-let toggleButton = document.getElementById('burgerBar');
-
-toggleButton.addEventListener('click', function() {
-    navBar.classList.toggle('activenav');
-})
+  let burgerButton = document.getElementById('burgerBar');
+  let navBar = document.getElementById('navigation-ul');
+  
+  
+  burgerButton.addEventListener('click', function() {
+      navBar.classList.toggle('activenav');
+  })
